@@ -63,7 +63,7 @@ An industrial-grade Data Analytics project analyzing **8,784 production shift re
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/GauravChauhan00/02-manufacturing-quality-analytics.git
+git clone https://github.com/pristine2207/02-manufacturing-quality-analytics.git
 cd 02-manufacturing-quality-analytics
 python3 -m venv .venv
 source .venv/bin/activate
