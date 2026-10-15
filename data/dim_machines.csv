@@ -1,0 +1,9 @@
+machine_id,machine_name,line,base_temp,base_press,base_vib,base_energy_kwh,health
+MCH-01,CNC Milling Alpha,Line-1 (Heavy Machining),68.5,5.2,1.8,380,Good
+MCH-02,CNC Milling Beta,Line-1 (Heavy Machining),79.2,5.8,3.4,460,High Friction Anomaly
+MCH-03,Hydraulic Stamping Unit 1,Line-2 (Forming & Press),72.0,8.4,2.1,410,Normal
+MCH-04,Hydraulic Stamping Unit 2,Line-2 (Forming & Press),74.5,9.1,2.5,430,Normal
+MCH-05,Robotic Welding Cell A,Line-3 (Assembly & Join),65.0,4.1,1.2,320,Optimal
+MCH-06,Robotic Welding Cell B,Line-3 (Assembly & Join),66.5,4.3,1.4,335,Optimal
+MCH-07,Injection Molding Pro-X,Line-4 (Polymer Casing),88.0,11.5,2.2,510,Normal
+MCH-08,Automated Surface Finisher,Line-5 (Finishing & Coat),61.0,3.6,1.1,270,Optimal

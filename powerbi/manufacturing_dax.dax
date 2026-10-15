@@ -1,0 +1,37 @@
+// ============================================================================
+// PROJECT 2: MANUFACTURING QUALITY & OPERATIONS — MASTER DAX MEASURES
+// ============================================================================
+
+// --- 1. PRODUCTION & VOLUME ---
+Total Production = SUM(fact_production_shifts[units_produced])
+Total Good Units = SUM(fact_production_shifts[units_good])
+Total Defects = SUM(fact_production_shifts[units_defective])
+Defect Rate % = DIVIDE([Total Defects], [Total Production], 0) * 100
+First Pass Yield % = DIVIDE([Total Good Units], [Total Production], 0) * 100
+
+// --- 2. TARGET & EFFICIENCY ---
+Target Production = SUM(fact_production_shifts[production_target])
+Target Achievement % = DIVIDE([Total Production], [Target Production], 0) * 100
+Plant Efficiency % = AVERAGE(fact_production_shifts[efficiency_pct])
+
+// --- 3. DOWNTIME & MACHINE UTILIZATION ---
+Total Downtime Minutes = SUM(fact_production_shifts[downtime_minutes])
+Total Downtime Hours = [Total Downtime Minutes] / 60
+Total Operating Minutes = SUM(fact_production_shifts[operating_minutes])
+Planned Shift Minutes = COUNTROWS(fact_production_shifts) * 480
+Machine Utilization % = DIVIDE([Total Operating Minutes], [Planned Shift Minutes], 0) * 100
+Downtime Rate % = DIVIDE([Total Downtime Minutes], [Planned Shift Minutes], 0) * 100
+
+// --- 4. ENERGY & SUSTAINABILITY ---
+Total Energy kWh = SUM(fact_production_shifts[energy_consumption_kwh])
+Energy Per Unit kWh = DIVIDE([Total Energy kWh], [Total Production], 0)
+
+// --- 5. TIME INTELLIGENCE & ROLLING PERFORMANCE ---
+Previous Month Production = CALCULATE([Total Production], DATEADD(dim_date[Date], -1, MONTH))
+MoM Production Growth % = DIVIDE([Total Production] - [Previous Month Production], [Previous Month Production], 0) * 100
+
+Rolling 7 Day Production = 
+CALCULATE(
+    [Total Production],
+    DATESINPERIOD(dim_date[Date], LASTDATE(dim_date[Date]), -7, DAY)
+)

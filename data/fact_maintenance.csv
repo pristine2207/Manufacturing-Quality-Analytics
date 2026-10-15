@@ -1,0 +1,69 @@
+maintenance_id,machine_id,maintenance_date,maintenance_type,duration_hours,maintenance_cost_usd,technician_id,parts_replaced
+MNT-0001,MCH-01,2024-01-21,Corrective Repair,1.5,1281.3,TECH-06,Yes
+MNT-0002,MCH-01,2024-02-11,Preventive Inspection,4.2,838.21,TECH-08,No
+MNT-0003,MCH-01,2024-03-08,Corrective Repair,2.8,660.18,TECH-08,Yes
+MNT-0004,MCH-01,2024-04-07,Lubrication & Tool Overhaul,1.6,2070.67,TECH-06,Yes
+MNT-0005,MCH-01,2024-06-17,Preventive Inspection,5.8,1417.77,TECH-03,No
+MNT-0006,MCH-01,2024-06-26,Corrective Repair,2.6,1551.78,TECH-02,Yes
+MNT-0007,MCH-01,2024-07-06,Lubrication & Tool Overhaul,5.2,1379.54,TECH-02,Yes
+MNT-0008,MCH-01,2024-09-10,Sensor Calibration,1.9,1484.35,TECH-08,No
+MNT-0009,MCH-01,2024-09-26,Preventive Inspection,4.4,442.82,TECH-08,No
+MNT-0010,MCH-01,2024-11-20,Preventive Inspection,4.9,1142.66,TECH-05,No
+MNT-0011,MCH-02,2024-02-01,Lubrication & Tool Overhaul,2.9,1321.48,TECH-03,Yes
+MNT-0012,MCH-02,2024-04-05,Corrective Repair,2.7,648.32,TECH-08,Yes
+MNT-0013,MCH-02,2024-05-04,Preventive Inspection,2.1,2200.76,TECH-05,No
+MNT-0014,MCH-02,2024-07-25,Lubrication & Tool Overhaul,2.2,2121.81,TECH-04,Yes
+MNT-0015,MCH-02,2024-09-16,Preventive Inspection,4.9,675.12,TECH-07,No
+MNT-0016,MCH-02,2024-11-29,Preventive Inspection,5.5,1756.98,TECH-04,No
+MNT-0017,MCH-02,2024-12-14,Preventive Inspection,2.2,1263.28,TECH-07,No
+MNT-0018,MCH-03,2024-04-29,Corrective Repair,4.5,496.81,TECH-08,Yes
+MNT-0019,MCH-03,2024-06-15,Preventive Inspection,4.3,2000.49,TECH-02,No
+MNT-0020,MCH-03,2024-07-10,Sensor Calibration,3.8,520.99,TECH-03,No
+MNT-0021,MCH-03,2024-09-22,Preventive Inspection,5.6,1702.03,TECH-05,No
+MNT-0022,MCH-03,2024-10-07,Preventive Inspection,5.3,1579.1,TECH-04,No
+MNT-0023,MCH-03,2024-12-09,Preventive Inspection,4.2,1109.53,TECH-03,No
+MNT-0024,MCH-04,2024-01-26,Corrective Repair,5.2,2033.68,TECH-03,Yes
+MNT-0025,MCH-04,2024-03-27,Corrective Repair,3.3,1249.6,TECH-06,Yes
+MNT-0026,MCH-04,2024-05-02,Sensor Calibration,2.7,1066.54,TECH-05,No
+MNT-0027,MCH-04,2024-05-06,Sensor Calibration,4.2,932.43,TECH-05,No
+MNT-0028,MCH-04,2024-05-24,Preventive Inspection,6.0,2202.8,TECH-08,No
+MNT-0029,MCH-04,2024-09-17,Lubrication & Tool Overhaul,3.7,1228.14,TECH-04,Yes
+MNT-0030,MCH-04,2024-09-27,Preventive Inspection,2.5,2348.48,TECH-05,No
+MNT-0031,MCH-04,2024-11-07,Corrective Repair,2.4,1730.51,TECH-06,Yes
+MNT-0032,MCH-04,2024-11-22,Lubrication & Tool Overhaul,3.5,1646.84,TECH-04,Yes
+MNT-0033,MCH-04,2024-11-23,Corrective Repair,3.0,825.32,TECH-04,Yes
+MNT-0034,MCH-05,2024-03-05,Lubrication & Tool Overhaul,3.4,1060.01,TECH-07,Yes
+MNT-0035,MCH-05,2024-03-09,Corrective Repair,4.3,1261.87,TECH-06,Yes
+MNT-0036,MCH-05,2024-03-25,Sensor Calibration,1.7,1329.26,TECH-08,No
+MNT-0037,MCH-05,2024-04-30,Preventive Inspection,4.3,528.05,TECH-04,No
+MNT-0038,MCH-05,2024-06-27,Lubrication & Tool Overhaul,5.1,814.34,TECH-06,Yes
+MNT-0039,MCH-05,2024-07-28,Preventive Inspection,5.0,1689.47,TECH-06,No
+MNT-0040,MCH-06,2024-01-19,Sensor Calibration,2.6,883.78,TECH-02,No
+MNT-0041,MCH-06,2024-02-08,Lubrication & Tool Overhaul,3.5,2034.66,TECH-03,Yes
+MNT-0042,MCH-06,2024-03-08,Preventive Inspection,4.5,1692.96,TECH-03,No
+MNT-0043,MCH-06,2024-03-13,Preventive Inspection,5.9,1282.93,TECH-03,No
+MNT-0044,MCH-06,2024-04-25,Lubrication & Tool Overhaul,4.3,1938.05,TECH-01,Yes
+MNT-0045,MCH-06,2024-06-15,Lubrication & Tool Overhaul,3.3,1157.43,TECH-07,Yes
+MNT-0046,MCH-06,2024-06-30,Preventive Inspection,1.5,1335.26,TECH-07,No
+MNT-0047,MCH-06,2024-10-19,Sensor Calibration,3.9,1456.76,TECH-04,No
+MNT-0048,MCH-07,2024-03-01,Corrective Repair,3.0,1951.76,TECH-02,Yes
+MNT-0049,MCH-07,2024-04-06,Preventive Inspection,1.6,1617.55,TECH-05,No
+MNT-0050,MCH-07,2024-06-19,Corrective Repair,2.4,2113.76,TECH-06,Yes
+MNT-0051,MCH-07,2024-08-17,Preventive Inspection,4.1,650.1,TECH-08,No
+MNT-0052,MCH-07,2024-08-29,Preventive Inspection,2.1,1823.95,TECH-05,No
+MNT-0053,MCH-07,2024-09-27,Sensor Calibration,4.8,741.79,TECH-03,No
+MNT-0054,MCH-07,2024-10-24,Preventive Inspection,5.7,2079.75,TECH-01,No
+MNT-0055,MCH-07,2024-10-31,Sensor Calibration,5.3,1949.78,TECH-04,No
+MNT-0056,MCH-07,2024-11-18,Preventive Inspection,4.2,2299.68,TECH-02,No
+MNT-0057,MCH-07,2024-11-25,Sensor Calibration,4.5,1123.39,TECH-05,No
+MNT-0058,MCH-08,2024-02-17,Lubrication & Tool Overhaul,2.4,1201.47,TECH-06,Yes
+MNT-0059,MCH-08,2024-02-27,Lubrication & Tool Overhaul,4.2,1500.98,TECH-07,Yes
+MNT-0060,MCH-08,2024-03-07,Corrective Repair,1.7,380.29,TECH-05,Yes
+MNT-0061,MCH-08,2024-05-19,Corrective Repair,2.4,678.54,TECH-01,Yes
+MNT-0062,MCH-08,2024-06-09,Sensor Calibration,5.2,1383.12,TECH-05,No
+MNT-0063,MCH-08,2024-06-29,Lubrication & Tool Overhaul,4.5,2220.98,TECH-02,Yes
+MNT-0064,MCH-08,2024-07-02,Preventive Inspection,5.9,1620.24,TECH-04,No
+MNT-0065,MCH-08,2024-07-26,Preventive Inspection,5.5,393.98,TECH-06,No
+MNT-0066,MCH-08,2024-08-09,Preventive Inspection,3.8,1672.98,TECH-04,No
+MNT-0067,MCH-08,2024-11-15,Preventive Inspection,2.2,1792.03,TECH-05,No
+MNT-0068,MCH-08,2024-12-18,Lubrication & Tool Overhaul,4.8,680.65,TECH-03,Yes

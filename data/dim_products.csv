@@ -1,0 +1,6 @@
+product_id,product_name,target_output_per_shift,unit_weight_kg
+PROD-M1,Precision Transmission Gear,450,2.4
+PROD-M2,Cast Aluminum Engine Bracket,380,4.8
+PROD-M3,High-Pressure Hydraulic Valve,300,1.6
+PROD-M4,Polymer Enclosure Housing,600,0.8
+PROD-M5,Reinforced Chassis Joint,320,5.5
